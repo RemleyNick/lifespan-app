@@ -45,15 +45,4 @@ for (let i = 0; i < lifespan; i++) {
       box.classList.add('box');
       row.appendChild(box);
     }
-  }
-
-//download pdf
-downloadButton.addEventListener('click', () => {
-  const tracker = document.getElementById('lifespan-tracker');
-  const doc = new jsPDF('p', 'mm', 'a4');
-  doc.html(tracker, {
-    callback: function () {
-      doc.save('lifespan-tracker.pdf');
-    }
-  });
-});
+  } 
