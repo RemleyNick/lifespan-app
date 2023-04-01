@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
     <title>Lifespan App</title>
 </head>
 <body>
     <h1>Lifespan Tracking</h1>
     <p>Enter your date of birth:</p>
     <input type="date" id="dob" />
-    <button id="calculate">calculate Weeks Lived</button>
+    <button id="calculate">Calculate Weeks Lived</button>
+    <div id="lifespan-tracker">
+        <!--Space for boxes to generate with JS-->
+    </div>
+    <button id="download">Download as PDF</button>
+
+    <script src="lifespan.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
 </body>
 </html>
