@@ -45,4 +45,4 @@ for (let i = 0; i < lifespan; i++) {
       box.classList.add('box');
       row.appendChild(box);
     }
-  } 
+  }   

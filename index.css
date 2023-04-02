@@ -4,12 +4,13 @@ body {
     background-color: lightgrey;
 }
 
-h1 {
+h1, h3{
     text-align: center;
 }
 
 p {
     text-align: center;
+    width: 60%;
 }
 
 .container {
@@ -40,7 +41,7 @@ input {
     height: 0.75rem;
     margin: 0.125rem;
     border: 1px solid gray;
-    border-radius: 0.125rem;
+    border-radius: 0.25rem;
 }
 
 .box.highlight {
